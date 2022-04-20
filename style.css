@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
 
 .top-section {
   background: #3c3a39;
@@ -23,6 +23,8 @@
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
   background: #1c1a19 url("/images/hero.png");
   padding: 120px 24px;
   background-repeat: no-repeat;
@@ -31,8 +33,9 @@
   background-position-y: 120%;
 }
 
+
 .hero h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #ff6b00;
   font-size: 56px;
   letter-spacing: 0.37px;
@@ -48,7 +51,7 @@
 }
 
 .hero .content {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
