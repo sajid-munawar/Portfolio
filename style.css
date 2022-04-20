@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
+
+.top-section {
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: #1c1a19 url("/images/hero.png");
+  padding: 120px 24px;
+  background-repeat: no-repeat;
+  padding-bottom: 172px;
+  background-position-x: right;
+  background-position-y: 120%;
+}
+
+.hero h1 {
+  font-family: "Crete Round", serif;
+  color: #ff6b00;
+  font-size: 56px;
+  letter-spacing: 0.37px;
+  margin-bottom: 12px;
+}
+
+.hero h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin-bottom: 12px;
+}
+
+.hero .content {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 21px;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+}
+
+.social li {
+  padding: 0 12px;
+}
