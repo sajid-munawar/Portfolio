@@ -13,9 +13,9 @@
   padding: 12px 24px;
 }
 
-.title {
+.title {  
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
@@ -54,7 +54,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 21px;
 }
 
@@ -145,7 +145,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px;
   margin-left: 24px;
   margin-top: 12px;
@@ -159,7 +159,7 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px;
   margin-left: 24px;
   margin-top: 12px;
@@ -180,7 +180,7 @@
   grid-template: 36px/327px;
   align-items: center;
   font-family: 'Crete Round', serif;
-  color: #ffffff;
+  color: #fff;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -198,7 +198,7 @@
   font-size: 16px;
   line-height: 24px;
   padding: 12px 24px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 12px;
 }
 
@@ -219,7 +219,7 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .art button {
@@ -231,7 +231,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px 12px;
   margin-top: 22px;
 }
@@ -245,7 +245,7 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px 12px;
   margin-top: 22px;
 }
@@ -255,7 +255,7 @@
   background: #1c1a19 url("./images/Frame.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 350px;
+  background-position-y: 330px;
   padding-bottom: 120px;
 }
 
@@ -290,7 +290,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px 12px;
   margin-left: 24px;
   margin-top: 22px;
@@ -306,7 +306,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px 12px;
   margin-left: 24px;
   margin-top: 22px;
@@ -341,7 +341,7 @@
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .aboutMe ul > li {
@@ -353,7 +353,7 @@
   font-size: 22px;
   line-height: 43px;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .aboutMe ul {
