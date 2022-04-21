@@ -9,6 +9,7 @@
 
 - HTML
 - CSS (Flexbox)
+- Github workflows
 
 ## Getting Started
 
