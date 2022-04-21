@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap');
+
 .top-section {
   background: #3c3a39;
   display: flex;
@@ -30,7 +32,7 @@
 }
 
 .hero h1 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   color: #ff6b00;
   font-size: 56px;
   letter-spacing: 0.37px;
@@ -69,7 +71,7 @@
   display: grid;
   grid-template: 83px/327px;
   align-items: center;
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -95,7 +97,7 @@
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   color: #091e42;
   font-style: normal;
   font-weight: 400;
@@ -107,8 +109,7 @@
 
 .works p {
   display: grid;
-  grid-template-columns: 127px/347px;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -128,7 +129,7 @@
   padding: 10px 12px;
   margin-right: 12px;
   border: 1px solid #8993a4;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -140,7 +141,7 @@
   border: none;
   width: 124px;
   background-color: #ff6b00;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -154,7 +155,7 @@
   border: none;
   width: 124px;
   background-color: #a75b25;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 24px;
@@ -178,7 +179,7 @@
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
@@ -191,7 +192,7 @@
 .art p {
   display: grid;
   grid-template-columns: 127px/347px;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -213,7 +214,7 @@
   margin-right: 12px;
   border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -226,7 +227,7 @@
   width: 327px;
   text-align: center;
   background-color: #ff6b00;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -240,7 +241,7 @@
   width: 327px;
   text-align: center;
   background-color: #9b521d;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 24px;
@@ -259,7 +260,7 @@
 }
 
 .aboutMe h2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   margin: 0 24px;
   font-style: normal;
   font-weight: 400;
@@ -270,7 +271,7 @@
 }
 
 .aboutMe p {
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0 24px;
@@ -285,7 +286,7 @@
   height: 46px;
   text-align: center;
   background-color: #ff6b00;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -301,7 +302,7 @@
   height: 46px;
   text-align: center;
   background-color: #9b521d;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -334,7 +335,7 @@
 
 .aboutMe span {
   margin: 24px 0;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -346,7 +347,7 @@
 .aboutMe ul > li {
   padding: 12px;
   list-style: none;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
