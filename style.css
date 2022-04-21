@@ -180,17 +180,10 @@
 }
 
 .works button:hover {
-  border: none;
-  width: 124px;
-  background-color: #a75b25;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px;
-  margin-left: 24px;
-  margin-top: 12px;
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
 }
 
 .art {
@@ -250,17 +243,10 @@
 }
 
 .art button:hover {
-  border: none;
-  width: 327px;
-  text-align: center;
-  background-color: #9b521d;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-top: 22px;
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
 }
 
 .aboutMe {
@@ -294,19 +280,10 @@
 }
 
 .aboutMe button:hover {
-  border: none;
-  width: 161px;
-  height: 46px;
-  text-align: center;
-  background-color: #9b521d;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-left: 24px;
-  margin-top: 22px;
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
 }
 
 .aboutMe .vector {
