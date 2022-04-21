@@ -9,14 +9,20 @@
 
 - HTML
 - CSS (Flexbox)
+- Github workflows
+
+## Live Demo 
+
+[Live Demo Link](https://sajid-munawar.github.io/Portfolio_website/)
+
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 - Clone repository in your local machine 
-- git clone https://github.com/sajid-munawar/Portfolio.git
-- cd Portfolio
+- git clone https://github.com/sajid-munawar/Portfolio_website.git
+- cd Portfolio website
 - open `index.html` in your browser.
 - You can use live server.
 
