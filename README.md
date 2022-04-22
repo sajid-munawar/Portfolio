@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-Mobile version skelton
+# Portfolio-Mobile
 
 > In this project I've used Flexbox to style my Porfolio page. The flexbox is very versatile and easy to use.It helps a lot in difficult tasks by making them easy and responsive.
 
