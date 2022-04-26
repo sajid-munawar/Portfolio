@@ -105,6 +105,24 @@
   padding-top: 24px;
 }
 
+footer p {
+  width: 327px;
+  height: 216px;
+  left: 0;
+  top: 1px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 150px 24px 73px 24px;
+}
+
 .works p {
   display: grid;
   font-family: 'Inter', sans-serif;
@@ -133,6 +151,22 @@
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+}
+
+form button {
+  margin: 15px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  width: 131px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 124px;
+  cursor: pointer;
 }
 
 .works button {
@@ -184,6 +218,12 @@
   background-color: #fff5e1;
   border: 1px solid #ff6b00;
   padding: 11px;
+}
+
+form button:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background: #fff5e1;
 }
 
 .art {
@@ -324,4 +364,75 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
+}
+
+.sociallist li {
+  padding: 9px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 4;
+}
+
+input {
+  width: 90%;
+  height: 52px;
+  margin: 5px;
+  background-color: #fff;
+  border: 2px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 90%;
+  padding: 60px;
+  padding-top: 22px;
+  margin: 5px;
+  background-color: #fff;
+  border: 2px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.sociallist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 5px;
+  justify-content: center;
+}
+
+.sociallist_link > a > img {
+  width: 50px;
+  height: 25px;
+  margin: 50px;
+  border-bottom: 10px;
+}
+
+.shape {
+  padding-top: 8px;
+  margin-left: 122px;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-left: 15px;
+}
+
+form textarea {
+  border: none;
+  background-color: #fbf8f7;
+  padding-left: 15px;
+  height: 114px;
+  width: 327px;
 }
