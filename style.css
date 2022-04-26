@@ -121,7 +121,6 @@ footer p {
   order: 0;
   flex-grow: 0;
   margin: 150px 24px 73px 24px;
-  max-width: 103%;
 }
 
 .works p {
@@ -435,5 +434,4 @@ form textarea {
   background-color: #fbf8f7;
   padding-left: 15px;
   height: 114px;
-  width: 327px;
 }
