@@ -213,17 +213,17 @@ form button {
   margin-top: 22px;
 }
 
+form button:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background: #fff5e1;
+}
+
 .works button:hover {
   color: #ff6b00;
   background-color: #fff5e1;
   border: 1px solid #ff6b00;
   padding: 11px;
-}
-
-form button:hover {
-  border: 1px solid #f55800;
-  color: #f55800;
-  background: #fff5e1;
 }
 
 .art {
@@ -346,6 +346,10 @@ form button:hover {
   color: #fff;
 }
 
+.sociallist li {
+  padding: 9px;
+}
+
 .aboutMe ul > li {
   padding: 12px;
   list-style: none;
@@ -364,10 +368,6 @@ form button:hover {
   flex-direction: column;
   align-items: center;
   list-style: none;
-}
-
-.sociallist li {
-  padding: 9px;
 }
 
 footer {
