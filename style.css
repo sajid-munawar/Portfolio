@@ -394,11 +394,6 @@ button {
   font-size: 18px;
 }
 
-button,
-p {
-  max-width: 328px;
-}
-
 .tech-ul-li {
   padding: 10px;
   background-color: rgb(255, 255, 255, 25%);
@@ -512,7 +507,9 @@ button:hover {
   }
 
   .card {
-    max-width: 322px;
+    margin: 1%;
+    width: 100%;
+    background-size: 100%;
   }
 
   .cards {
@@ -529,6 +526,22 @@ button:hover {
   .recent {
     display: flex;
     padding-top: 100px;
+  }
+
+  .card-header,
+  .card-paragraph,
+  .tech-ul {
+    padding-left: 5%;
+    padding-bottom: 2%;
+  }
+
+  .card-paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 90%;
   }
 
   .works .vector {
