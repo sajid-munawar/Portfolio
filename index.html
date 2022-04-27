@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap&family=Inter&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -18,208 +18,244 @@
     <header class="top-section">
       <a href="/" class="title">Sajid Munawar</a>
       <nav class="menu">
-        <svg
-          width="18"
-          height="12"
-          viewBox="0 0 18 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M0 1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18 1.55228 17.5523 2 17 2H1C0.447715 2 0 1.55228 0 1ZM0 6C0 5.44772 0.447715 5 1 5L17 5C17.5523 5 18 5.44772 18 6C18 6.55229 17.5523 7 17 7L1 7C0.447715 7 0 6.55228 0 6ZM1 10C0.447715 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1Z"
-            fill="white"
-          />
-        </svg>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#about">about</a></li>
+          <li class="nav-item"><a href="#contact">contact</a></li>
+          <li class="nav-item">
+            <a href="#mail"
+              ><img src="./images/HeaderIcons/Icon-Mail.png" alt=""
+            /></a>
+          </li>
+        </ul>
+        <div class="menu-wrapper">
+          <svg
+            width="18"
+            height="12"
+            viewBox="0 0 18 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18 1.55228 17.5523 2 17 2H1C0.447715 2 0 1.55228 0 1ZM0 6C0 5.44772 0.447715 5 1 5L17 5C17.5523 5 18 5.44772 18 6C18 6.55229 17.5523 7 17 7L1 7C0.447715 7 0 6.55228 0 6ZM1 10C0.447715 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </nav>
     </header>
 
     <section class="hero">
-      <h1>Hey There. <br />I’m Sajid</h1>
-      <h3>I’am a Software Developer</h3>
-      <p class="content">
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
-      <ul class="social">
-        <li><img src="./images/Footericons/1.png" alt="" /></li>
-        <li><img src="./images/Footericons/2.png" alt="" /></li>
-        <li><img src="./images/Footericons/3.png" alt="" /></li>
-        <li><img src="./images/Footericons/4.png" alt="" /></li>
-        <li><img src="./images/Footericons/5.png" alt="" /></li>
-      </ul>
-    </section>
-
-    <section class="works">
-      <h2>My Recent Works</h2>
-      <img class="vector" src="./images/Vector.png" alt="" />
-      <img class="placeholder" src="./images/ImgPlaceholder.png" alt="" />
-      <h6>Multi-Post Stories</h6>
-      <p>
-        A daily selection of privately personalized reads; no accounts or
-        sign-ups required. has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a standard dummy text.
-      </p>
-      <ul>
-        <li>css</li>
-        <li>html</li>
-        <li>bootstrap</li>
-        <li>Ruby</li>
-      </ul>
-      <button type="submit">See Project</button>
-    </section>
-    <section class="marg">
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
+      <div class="heroheadings">
+        <h1>Hey There. <br />I’m Sajid</h1>
+        <h3>I’am a Software Developer</h3>
+        <p class="content">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
         </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit">See Project</button>
       </div>
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
+      <div class="heroSocial">
+        <ul class="social">
+          <li>
+            <img src="./images/HeaderIcons/1.png" alt="social media icon" />
+          </li>
+          <li>
+            <img src="./images/HeaderIcons/2.png" alt="social media icon" />
+          </li>
+          <li>
+            <img src="./images/HeaderIcons/3.png" alt="social media icon" />
+          </li>
+          <li>
+            <img src="./images/HeaderIcons/4.png" alt="social media icon" />
+          </li>
+          <li>
+            <img src="./images/HeaderIcons/5.png" alt="social media icon" />
+          </li>
         </ul>
-        <button type="submit">See Project</button>
-      </div>
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit">See Project</button>
-      </div>
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit">See Project</button>
-      </div>
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit">See Project</button>
-      </div>
-      <div class="art">
-        <h2>Profesional Art Printing Data</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit">See Project</button>
       </div>
     </section>
 
+    <div class="part2">
+      <section class="works">
+        <div class="recent">
+          <h2>My Recent Works</h2>
+
+          <img class="vector" src="./images/Vector.png" alt="" />
+          <div class="line"><img src="./images/Vector.png" alt="" /></div>
+        </div>
+        <div class="yoga">
+          <div class="yoga1">
+            <img
+              class="placeholder"
+              src="./images/imgPlaceholder.png"
+              alt="imgPlaceholder"
+            />
+          </div>
+          <div class="yoga2">
+            <h6>Multi-Post Stories</h6>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button type="submit">See Project</button>
+          </div>
+        </div>
+      </section>
+      <section class="main-section">
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+        <div class="card">
+            <h2 class="card-header">Professional Art printing Data</h2>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <ul class="tech-ul">
+                <li class="tech-ul-li">html</li>
+                <li class="tech-ul-li">bootstrap</li>
+                <li class="tech-ul-li">ruby</li>
+            </ul>
+            <button>See project</button>
+        </div>
+    </section>
+    </div>
     <section class="aboutMe">
-      <h2>About me</h2>
-      <p>
-        Hello I’m a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <button type="submit">Get My Resume</button>
+      <div class="aboutMe-desktop">
+        <h2>About me</h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <button type="submit">Get My Resume</button>
+      </div>
+      <hr>
       <img class="vector" src="./images/Devider.png" alt="" />
-      <ul>
-        <li class="first">
-          <img src="./images/Rectangle55.png" alt="" /> <span>Language</span>
-          <ul>
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
-          </ul>
-        </li>
-        <li class="first">
-          <img src="./images/Rectangle56.png" alt="" /> <span>Frameworks</span>
-          <ul>
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPec</li>
-            <li>CapyBara</li>
-            <li>Selenium</li>
-          </ul>
-        </li>
+      <div class="desktop-for-ul">
+        <ul>
+          <li class="first">
+            <img src="./images/Rectangle55.png" alt="" /> <span>Language</span>
+            <ul>
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </li>
+          <li class="first">
+            <img src="./images/Rectangle56.png" alt="" />
+            <span>Frameworks</span>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSPec</li>
+              <li>CapyBara</li>
+              <li>Selenium</li>
+            </ul>
+          </li>
 
-        <li class="first">
-          <img src="./images/Rectangle57.png" alt="" /> <span>Skills</span>
-          <ul>
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </li>
-      </ul>
+          <li class="first">
+            <img src="./images/Rectangle57.png" alt="" /> <span>Skills</span>
+            <ul>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <footer>
-      <p> <strong>
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.</strong>
-      </p>
-      <form action="https://formspree.io/f/myyodjdo" method="post">
-        <input type="text" placeholder="Full name" name="Full name" maxlength="30" required />
+      <div class="divider">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like to
+          chat please get in touch.
+        </p>
+        <form action="https://formspree.io/f/myyodjdo" method="post">
+          <input
+          type="text"
+          placeholder="Full name"
+          name="Full name"
+          maxlength="30"
+          required
+        />
         <input type="email" placeholder="Email address" name="email" required />
         <textarea
-          cols="30"
-          rows="10"
-          placeholder="Enter text here"
-          maxlength="500"
-          required
+        cols="30"
+        rows="10"
+        placeholder="Enter text here"
+        maxlength="500"
+        required
           name="Message"
         ></textarea>
         <button type="submit">Get in touch</button>
       </form>
-      <img src="./images/footerIcon2/Rectangle42.png" alt="Rectangle 42" />
-
+    </div>
+      <img class="line-on-left" src="./images/footerIcon2/Rectangle42.png" alt="Rectangle 42" />
+      
       <ul class="sociallist">
         <li>
-          <img
-            src="./images/footerIcon2/Icon-GitHub.png"
-            alt="Github icon"
-          />
+          <img src="./images/footerIcon2/Icon-GitHub.png" alt="Github icon" />
         </li>
         <li>
           <img
@@ -234,16 +270,10 @@
           />
         </li>
         <li>
-          <img
-            src="./images/footerIcon2/Icon-Twitter.png"
-            alt="Twitter Icon"
-          />
+          <img src="./images/footerIcon2/Icon-Twitter.png" alt="Twitter Icon" />
         </li>
         <li>
-          <img
-            src="./images/footerIcon2/Icon-Medium.png"
-            alt="Medium Icon"
-          />
+          <img src="./images/footerIcon2/Icon-Medium.png" alt="Medium Icon" />
         </li>
       </ul>
       <img
@@ -252,6 +282,5 @@
         alt="Shape Icon"
       />
     </footer>
-
   </body>
 </html>

@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap');
-
 .top-section {
   background: #3c3a39;
   display: flex;
@@ -32,7 +30,7 @@
 }
 
 .hero h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #ff6b00;
   font-size: 56px;
   letter-spacing: 0.37px;
@@ -56,6 +54,7 @@
   line-height: 24px;
   color: #fff;
   margin-bottom: 21px;
+  width: 100%;
 }
 
 .social {
@@ -67,11 +66,15 @@
   padding: 0 12px;
 }
 
+.works {
+  padding-bottom: 24px;
+}
+
 .works h2 {
   display: grid;
   grid-template: 83px/327px;
   align-items: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -95,7 +98,7 @@
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #091e42;
   font-style: normal;
   font-weight: 400;
@@ -113,7 +116,7 @@ footer p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -124,8 +127,7 @@ footer p {
 }
 
 .works p {
-  display: grid;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -145,7 +147,7 @@ footer p {
   padding: 10px 12px;
   margin-right: 12px;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -173,7 +175,7 @@ form button {
   border: none;
   width: 124px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -183,27 +185,13 @@ form button {
   margin-top: 12px;
 }
 
-.art button {
-  border: none;
-  width: 327px;
-  text-align: center;
-  background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-top: 22px;
-}
-
 .aboutMe button {
   border: none;
   width: 161px;
   height: 46px;
   text-align: center;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -219,87 +207,43 @@ form button:hover {
   background: #fff5e1;
 }
 
+form button:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+  transform: translateY(4px);
+}
+
+form button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 .works button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
-}
-
-.art {
-  background: url("./images/bg.png");
-  background-repeat: no-repeat;
-}
-
-.marg {
-  margin: 0 24px;
-  margin-bottom: 120px;
-}
-
-.art h2 {
-  display: grid;
-  grid-template: 36px/327px;
-  align-items: center;
-  font-family: 'Crete Round', serif;
-  color: #fff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  padding: 0 24px;
-  padding-top: 108px;
-}
-
-.art p {
-  display: grid;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  border: none;
+  width: 124px;
+  background-color: #a75b25;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 24px;
-  padding: 12px 24px;
   color: #fff;
+  padding: 12px;
+  margin-left: 24px;
   margin-top: 12px;
 }
 
-.art ul {
-  display: flex;
-  list-style: none;
-  padding-left: 24px;
-}
-
-.art li {
-  align-items: center;
-  padding: 10px 12px;
-  margin-right: 12px;
-  border: 1px solid #8993a4;
-  background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.art button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
-}
-
 .aboutMe {
+  margin-top: 120px;
   padding-top: 100px;
   background: #1c1a19 url("./images/Frame.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 330px;
+  background-position-y: 350px;
   padding-bottom: 120px;
 }
 
 .aboutMe h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   margin: 0 24px;
   font-style: normal;
   font-weight: 400;
@@ -310,7 +254,7 @@ form button:hover {
 }
 
 .aboutMe p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0 24px;
@@ -320,10 +264,19 @@ form button:hover {
 }
 
 .aboutMe button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
+  border: none;
+  width: 161px;
+  height: 46px;
+  text-align: center;
+  background-color: #9b521d;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  padding: 12px 12px;
+  margin-left: 24px;
+  margin-top: 22px;
 }
 
 .aboutMe .vector {
@@ -337,7 +290,7 @@ form button:hover {
 
 .aboutMe span {
   margin: 24px 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -353,7 +306,7 @@ form button:hover {
 .aboutMe ul > li {
   padding: 12px;
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -434,4 +387,238 @@ form textarea {
   background-color: #fbf8f7;
   padding-left: 15px;
   height: 114px;
+  width: 327px;
+}
+
+.main-section {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.tech-ul {
+  list-style: none;
+  display: flex;
+  width: 70%;
+  gap: 18px;
+  padding-left: 15px;
+}
+
+button {
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+button,
+p {
+  max-width: 328px;
+}
+
+.tech-ul-li {
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 25%);
+  color: #fff;
+}
+
+.card-paragraph {
+  color: #fff;
+  font-size: 19px;
+  padding-left: 15px;
+  width: 70%;
+}
+
+.card-header {
+  color: #fff;
+  font-size: 28px;
+  width: 70%;
+  padding-left: 15px;
+}
+
+button:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .works .placeholder {
+    padding-left: 24px;
+    padding-top: 60px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .line-on-left {
+    width: 100%;
+  }
+  .top-section {
+    height: 72px;
+    padding: 26px 100px;
+  }
+  .menu-wrapper {
+    display: none;
+  }
+  .nav-list {
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    /* padding: 0 50px; */
+    display: flex;
+    align-content: space-between;
+  }
+  .nav-item {
+    margin-left: 32px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hero {
+    background: #1c1a19 url(./images/HeaderIcons/desktop_illustation.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position-x: right;
+    background-position-y: -44px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    justify-content: flex-end;
+  }
+  .heroheadings {
+    /* display: flex; */
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .heroSocial {
+    display: flex;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .yoga {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 15px;
+    grid-row-gap: 3%;
+  }
+
+  .tech-ul {
+    gap: 15px;
+  }
+
+  .card {
+    max-width: 322px;
+  }
+
+  .cards {
+    display: grid;
+    /* grid-template-rows: auto ; */
+    grid-template-rows: 435px 435px;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+  }
+  .works h2 {
+    padding-top: 0;
+  }
+  .recent {
+    display: flex;
+    padding-top: 100px;
+  }
+
+  .works .vector {
+    display: none;
+  }
+
+  .line {
+    padding-top: 4%;
+  }
+
+  .works .placeholder {
+    padding-top: 36px;
+    /* margin: auto 24px; */
+  }
+  .desktop-for-ul > ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 30px;
+  }
+  .aboutMe ul {
+    align-items: start;
+  }
+  .aboutMe-desktop {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .aboutMe-desktop p {
+    width: 40%;
+  }
+  .aboutMe {
+    background: #1c1a19 url("./images/footerIcon2/background-aboutme.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 100px;
+    background-size: 40%;
+    margin-top: 111px;
+  }
+  .aboutMe .vector {
+    display: none;
+  }
+  hr {
+    margin: 10%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+  }
+  .shape {
+    display: none;
+  }
+  form {
+    align-items: start;
+  }
 }
