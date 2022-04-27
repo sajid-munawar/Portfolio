@@ -84,6 +84,10 @@
   margin: auto 24px;
 }
 
+.separator {
+  display: none;
+}
+
 .works .vector {
   display: grid;
   padding: 24px;
@@ -472,6 +476,11 @@ button:hover {
     gap: 40px;
     justify-content: flex-end;
   }
+
+  .hero .content {
+    max-width: 33.2%;
+  }
+
   .heroheadings {
     /* display: flex; */
   }
@@ -486,13 +495,42 @@ button:hover {
     display: flex;
   }
 
+  .part2 {
+    padding: 5%;
+  }
+
+  .recent {
+    display: flex;
+    align-items: center;
+  }
+
+  .separator {
+    display: block;
+    width: 69%;
+    margin-left: -2%;
+  }
+
   .content {
     width: 50%;
   }
 
   .yoga {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    height: 1%;
+  }
+
+  .yoga1 {
+    width: 60%;
+  }
+
+  .yoga2 {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 3%;
   }
 
   .main-section {
@@ -523,6 +561,11 @@ button:hover {
   .works h2 {
     padding-top: 0;
   }
+
+  .works p {
+    max-width: 81%;
+  }
+
   .recent {
     display: flex;
     padding-top: 100px;
@@ -554,7 +597,9 @@ button:hover {
 
   .works .placeholder {
     padding-top: 36px;
-    /* margin: auto 24px; */
+    float: left;
+    width: 840px;
+    height: 493px;
   }
   .desktop-for-ul > ul {
     justify-content: space-around;
