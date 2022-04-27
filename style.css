@@ -218,20 +218,6 @@ form button:disabled {
   color: #5b5957;
 }
 
-.works button:hover {
-  border: none;
-  width: 124px;
-  background-color: #a75b25;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px;
-  margin-left: 24px;
-  margin-top: 12px;
-}
-
 .aboutMe {
   margin-top: 120px;
   padding-top: 100px;
@@ -261,22 +247,6 @@ form button:disabled {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-}
-
-.aboutMe button:hover {
-  border: none;
-  width: 161px;
-  height: 46px;
-  text-align: center;
-  background-color: #9b521d;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-left: 24px;
-  margin-top: 22px;
 }
 
 .aboutMe .vector {
@@ -387,7 +357,7 @@ form textarea {
   background-color: #fbf8f7;
   padding-left: 15px;
   height: 114px;
-  width: 327px;
+  width: 90%;
 }
 
 .main-section {
