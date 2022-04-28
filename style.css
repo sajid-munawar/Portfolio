@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap');
-
 .top-section {
   background: #3c3a39;
   display: flex;
@@ -32,7 +30,7 @@
 }
 
 .hero h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #ff6b00;
   font-size: 56px;
   letter-spacing: 0.37px;
@@ -56,6 +54,7 @@
   line-height: 24px;
   color: #fff;
   margin-bottom: 21px;
+  width: 100%;
 }
 
 .social {
@@ -67,11 +66,15 @@
   padding: 0 12px;
 }
 
+.works {
+  padding-bottom: 24px;
+}
+
 .works h2 {
   display: grid;
   grid-template: 83px/327px;
   align-items: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -79,6 +82,14 @@
   color: #1c1a19;
   padding-top: 120px;
   margin: auto 24px;
+}
+
+.recent-works-line {
+  display: none;
+}
+
+.separator {
+  display: none;
 }
 
 .works .vector {
@@ -95,7 +106,7 @@
   display: grid;
   grid-template: 36px/327px;
   align-items: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #091e42;
   font-style: normal;
   font-weight: 400;
@@ -124,8 +135,7 @@ footer p {
 }
 
 .works p {
-  display: grid;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -145,12 +155,25 @@ footer p {
   padding: 10px 12px;
   margin-right: 12px;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  letter-spacing: 0.03em;
 }
 
 form button {
@@ -173,7 +196,7 @@ form button {
   border: none;
   width: 124px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -183,27 +206,13 @@ form button {
   margin-top: 12px;
 }
 
-.art button {
-  border: none;
-  width: 327px;
-  text-align: center;
-  background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  padding: 12px 12px;
-  margin-top: 22px;
-}
-
 .aboutMe button {
   border: none;
   width: 161px;
   height: 46px;
   text-align: center;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -213,93 +222,42 @@ form button {
   margin-top: 22px;
 }
 
+button:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
+}
+
 form button:hover {
   border: 1px solid #f55800;
   color: #f55800;
   background: #fff5e1;
 }
 
-.works button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
+form button:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+  transform: translateY(4px);
 }
 
-.art {
-  background: url("./images/bg.png");
-  background-repeat: no-repeat;
-}
-
-.marg {
-  margin: 0 24px;
-  margin-bottom: 120px;
-}
-
-.art h2 {
-  display: grid;
-  grid-template: 36px/327px;
-  align-items: center;
-  font-family: 'Crete Round', serif;
-  color: #fff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  padding: 0 24px;
-  padding-top: 108px;
-}
-
-.art p {
-  display: grid;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 12px 24px;
-  color: #fff;
-  margin-top: 12px;
-}
-
-.art ul {
-  display: flex;
-  list-style: none;
-  padding-left: 24px;
-}
-
-.art li {
-  align-items: center;
-  padding: 10px 12px;
-  margin-right: 12px;
-  border: 1px solid #8993a4;
-  background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.art button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
+form button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .aboutMe {
+  margin-top: 120px;
   padding-top: 100px;
   background: #1c1a19 url("./images/Frame.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 330px;
+  background-position-y: 350px;
   padding-bottom: 120px;
 }
 
 .aboutMe h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   margin: 0 24px;
   font-style: normal;
   font-weight: 400;
@@ -310,20 +268,13 @@ form button:hover {
 }
 
 .aboutMe p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0 24px;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-}
-
-.aboutMe button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
 }
 
 .aboutMe .vector {
@@ -337,7 +288,7 @@ form button:hover {
 
 .aboutMe span {
   margin: 24px 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -353,7 +304,7 @@ form button:hover {
 .aboutMe ul > li {
   padding: 12px;
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -368,6 +319,10 @@ form button:hover {
   flex-direction: column;
   align-items: center;
   list-style: none;
+}
+
+.last-hr {
+  display: none;
 }
 
 footer {
@@ -434,4 +389,331 @@ form textarea {
   background-color: #fbf8f7;
   padding-left: 15px;
   height: 114px;
+  width: 90%;
+}
+
+.main-section {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  justify-content: flex-end;
+  gap: 10px;
+  background-size: cover;
+}
+
+.tech-ul {
+  list-style: none;
+  display: flex;
+  width: 70%;
+  gap: 18px;
+  padding-left: 15px;
+}
+
+.tech-ul-li {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 25%);
+  color: #fff;
+}
+
+.card-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 15px;
+  width: 90%;
+}
+
+.card-header {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 32px;
+  width: 70%;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .works .placeholder {
+    padding-left: 24px;
+    padding-top: 60px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .line-on-left {
+    width: 100%;
+  }
+
+  .top-section {
+    height: 72px;
+    padding: 26px 100px;
+  }
+
+  .menu-wrapper {
+    display: none;
+  }
+
+  .nav-list {
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+  }
+
+  .nav-item {
+    margin-left: 32px;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hero {
+    background: #1c1a19 url(./images/HeaderIcons/desktop_illustation.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position-x: right;
+    background-position-y: -44px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    justify-content: flex-end;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .hero .content {
+    max-width: 40.2%;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .heroSocial {
+    display: flex;
+  }
+
+  .part2 {
+    padding: 5%;
+  }
+
+  .recent {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .separator {
+    display: block;
+    width: 69%;
+    margin-left: -2%;
+  }
+
+  .yoga {
+    display: flex;
+    height: 1%;
+  }
+
+  .yoga1 {
+    width: 60%;
+  }
+
+  .yoga2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 15px;
+    grid-row-gap: 3%;
+  }
+
+  .tech-ul {
+    gap: 15px;
+  }
+
+  .mydivouter {
+    position: relative;
+  }
+
+  .mydivouter :hover {
+    background: url("./images/hover_bg.png");
+    background-size: cover;
+    border: 1px solid grey;
+  }
+
+  .card-paragraph {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 90%;
+  }
+
+  .card-header,
+  .card-paragraph,
+  .tech-ul {
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+
+  .mydivouter :hover .card-header {
+    display: none;
+  }
+
+  .mydivouter :hover .card-paragraph {
+    display: none;
+  }
+
+  .mydivouter :hover .tech-ul {
+    display: none;
+  }
+
+  .card {
+    width: 100%;
+    z-index: 2;
+  }
+
+  .abc {
+    position: absolute;
+    display: none;
+    z-index: 3;
+  }
+
+  .mydivouter :hover .abc {
+    display: block;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-rows: 435px 435px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+  }
+
+  .works h2 {
+    padding-top: 0;
+  }
+
+  .recent-works-line {
+    display: block;
+    width: 100%;
+    background: #212121;
+  }
+
+  .last-hr {
+    display: block;
+    margin: 10%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .works .vector {
+    display: none;
+  }
+
+  .line {
+    padding-top: 4%;
+  }
+
+  .works .placeholder {
+    padding-top: 36px;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  .desktop-for-ul > ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 30px;
+  }
+
+  .aboutMe ul {
+    align-items: start;
+  }
+
+  .aboutMe-desktop {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+    font-size: 32px;
+  }
+
+  .aboutMe-desktop p {
+    width: 50%;
+  }
+
+  .aboutMe {
+    background: #1c1a19 url("./images/footerIcon2/background-aboutme.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 100px;
+    background-size: 40%;
+    margin-top: 111px;
+  }
+
+  .aboutMe .vector {
+    display: none;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  form {
+    align-items: start;
+  }
 }
