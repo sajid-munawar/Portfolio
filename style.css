@@ -124,7 +124,7 @@ footer p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 33px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -164,11 +164,16 @@ footer p {
 }
 
 button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
   height: 48px;
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  font-size: 18px;
+  letter-spacing: 0.03em;
 }
 
 form button {
@@ -309,9 +314,9 @@ form button:disabled {
   list-style: none;
 }
 
- .last-hr {
-   display: none;
-  }
+.last-hr {
+  display: none;
+}
 
 footer {
   margin-top: 100px;
@@ -408,21 +413,28 @@ form textarea {
 }
 
 .tech-ul-li {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
   padding: 10px;
   background-color: rgb(255, 255, 255, 25%);
   color: #fff;
 }
 
 .card-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
   padding-left: 15px;
-  width: 70%;
+  width: 90%;
 }
 
 .card-header {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
   color: #fff;
-  font-size: 28px;
+  font-size: 32px;
   width: 70%;
   padding-left: 15px;
 }
@@ -494,7 +506,7 @@ button:hover {
   }
 
   .hero .content {
-    max-width: 50.2%;
+    max-width: 40.2%;
   }
 
   .social {
@@ -516,7 +528,6 @@ button:hover {
     display: flex;
     align-items: center;
     padding: 50px 0;
-
   }
 
   .separator {
@@ -551,7 +562,6 @@ button:hover {
     justify-content: flex-start;
     margin-left: 3%;
   }
-
 
   .main-section {
     display: grid;
@@ -652,7 +662,7 @@ button:hover {
   }
 
   .aboutMe-desktop p {
-    width: 40%;
+    width: 50%;
   }
 
   .aboutMe {
@@ -668,7 +678,6 @@ button:hover {
     display: none;
   }
 
-
   .divider {
     display: flex;
     justify-content: center;
@@ -678,6 +687,7 @@ button:hover {
     color: #262626;
     margin-top: 0;
     text-align: left;
+    font-size: 32px;
   }
 
   .shape {
