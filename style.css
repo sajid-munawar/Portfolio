@@ -577,11 +577,31 @@ form textarea {
     border: 1px solid grey;
   }
 
-  .mydivouter :hover .card-header  {
+  .card-paragraph {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 90%;
+  }
+
+  .card-header,
+  .card-paragraph,
+  .tech-ul {
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+
+  .mydivouter :hover .card-header {
     display: none;
   }
 
   .mydivouter :hover .card-paragraph {
+    display: none;
+  }
+
+  .mydivouter :hover .tech-ul {
     display: none;
   }
 
@@ -593,7 +613,7 @@ form textarea {
   .abc {
     position: absolute;
     display: none;
-     z-index: 3;
+    z-index: 3;
   }
 
   .mydivouter :hover .abc {
@@ -611,13 +631,6 @@ form textarea {
     padding-top: 0;
   }
 
-  .card-header,
-  .card-paragraph,
-  .tech-ul {
-    padding-left: 5%;
-    padding-bottom: 3%;
-  }
-
   .recent-works-line {
     display: block;
     width: 100%;
@@ -631,15 +644,6 @@ form textarea {
 
   button {
     width: 100%;
-  }
-
-  .card-paragraph {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
-    width: 90%;
   }
 
   .works .vector {
