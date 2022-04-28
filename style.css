@@ -222,6 +222,13 @@ form button {
   margin-top: 22px;
 }
 
+button:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  padding: 11px;
+}
+
 form button:hover {
   border: 1px solid #f55800;
   color: #f55800;
@@ -439,13 +446,6 @@ form textarea {
   padding-left: 15px;
 }
 
-button:hover {
-  color: #ff6b00;
-  background-color: #fff5e1;
-  border: 1px solid #ff6b00;
-  padding: 11px;
-}
-
 @media screen and (max-width: 767px) {
   .nav-list {
     display: none;
@@ -479,7 +479,6 @@ button:hover {
   .nav-list {
     font-family: "Inter", sans-serif;
     list-style: none;
-    /* padding: 0 50px; */
     display: flex;
     align-content: space-between;
   }
@@ -503,6 +502,10 @@ button:hover {
     flex-direction: row-reverse;
     gap: 40px;
     justify-content: flex-end;
+  }
+
+  .content {
+    width: 50%;
   }
 
   .hero .content {
@@ -536,17 +539,8 @@ button:hover {
     margin-left: -2%;
   }
 
-  .content {
-    width: 50%;
-  }
-
-  .works {
-    /* height: 50vh; */
-  }
-
   .yoga {
     display: flex;
-    /* align-items: center; */
     height: 1%;
   }
 
@@ -556,7 +550,6 @@ button:hover {
 
   .yoga2 {
     width: 40%;
-    /* height: 60vh; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -577,14 +570,11 @@ button:hover {
   .card {
     margin: 1%;
     width: 100%;
-    /* background-size: 100%; */
   }
 
   .cards {
     display: grid;
-    /* grid-template-rows: auto ; */
     grid-template-rows: 435px 435px;
-    /* grid-template-columns: auto auto auto; */
     grid-template-columns: 33% 33% 33%;
     grid-gap: 20px;
   }
@@ -599,6 +589,7 @@ button:hover {
     padding-left: 5%;
     padding-bottom: 2%;
   }
+
   .recent-works-line {
     display: block;
     width: 100%;
@@ -614,12 +605,8 @@ button:hover {
     width: 100%;
   }
 
-  .tech-ul {
-    width: 1%;
-  }
-
   .card-paragraph {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -661,6 +648,13 @@ button:hover {
     gap: 12px;
   }
 
+  footer p {
+    color: #262626;
+    margin-top: 0;
+    text-align: left;
+    font-size: 32px;
+  }
+
   .aboutMe-desktop p {
     width: 50%;
   }
@@ -681,13 +675,6 @@ button:hover {
   .divider {
     display: flex;
     justify-content: center;
-  }
-
-  footer p {
-    color: #262626;
-    margin-top: 0;
-    text-align: left;
-    font-size: 32px;
   }
 
   .shape {
