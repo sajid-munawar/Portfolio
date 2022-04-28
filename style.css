@@ -567,9 +567,37 @@ form textarea {
     gap: 15px;
   }
 
+  .mydivouter {
+    position: relative;
+  }
+
+  .mydivouter :hover {
+    background: url("./images/hover_bg.png");
+    background-size: cover;
+    border: 1px solid grey;
+  }
+
+  .mydivouter :hover .card-header  {
+    display: none;
+  }
+
+  .mydivouter :hover .card-paragraph {
+    display: none;
+  }
+
   .card {
-    margin: 1%;
     width: 100%;
+    z-index: 2;
+  }
+
+  .abc {
+    position: absolute;
+    display: none;
+     z-index: 3;
+  }
+
+  .mydivouter :hover .abc {
+    display: block;
   }
 
   .cards {
@@ -587,7 +615,7 @@ form textarea {
   .card-paragraph,
   .tech-ul {
     padding-left: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
   }
 
   .recent-works-line {
