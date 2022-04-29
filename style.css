@@ -445,22 +445,32 @@ form textarea {
   width: 70%;
   padding-left: 15px;
 }
+
 .myname {
   overflow: hidden;
   white-space: nowrap;
-  animation: 
-  typing 3.5s steps(40,end),
-  blink-caret .75s step-end infinite;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  from {width: 0}
-  to {width: 100%}
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  
+  50% {
+    border-color: orange;
+  }
 }
 
 @media screen and (max-width: 767px) {
