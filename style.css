@@ -366,6 +366,10 @@ textarea {
   justify-content: center;
 }
 
+img:hover {
+  transform: scale(1.02);
+}
+
 .sociallist_link > a > img {
   width: 50px;
   height: 25px;
@@ -453,7 +457,7 @@ form textarea {
 }
 
 .myname:hover {
- transform:scale(1.2)
+  transform: scale(1.2);
 }
 
 @keyframes typing {
