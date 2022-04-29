@@ -366,6 +366,10 @@ textarea {
   justify-content: center;
 }
 
+img:hover {
+  transform: scale(1.02);
+}
+
 .sociallist_link > a > img {
   width: 50px;
   height: 25px;
@@ -444,6 +448,37 @@ form textarea {
   font-size: 32px;
   width: 70%;
   padding-left: 15px;
+}
+
+.myname {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.myname:hover {
+  transform: scale(1.2);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: orange;
+  }
 }
 
 @media screen and (max-width: 767px) {
