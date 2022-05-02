@@ -1,6 +1,6 @@
 const fName = document.getElementById("fName");
 const email = document.getElementById("email");
-const message = document.getElementById("textarea");
+const message = document.getElementById("message");
 
 const userData = {
   firstName: "",
