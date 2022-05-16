@@ -1,28 +1,18 @@
-const menuOpen = document.getElementById("menu-opener");
-const menu = document.querySelector(".menu-js");
-const close = document.querySelector(".x");
-const closelink = document.querySelectorAll(".link");
+const menuOpen = document.getElementById('menu-opener');
+const menu = document.querySelector('.menu-js');
+const close = document.querySelector('.x');
+const closelink = document.querySelectorAll('.link');
 
-console.log(closelink);
-
-menuOpen.addEventListener("click", (e) => {
-  // console.log("clicked");
-  menu.style.display = "block";
-//   e.stopPropagation;
+menuOpen.addEventListener('click', () => {
+  menu.style.display = 'block';
 });
 
-close.addEventListener("click", (e) => {
-  // console.log("clicked");
-  menu.style.display = "none";
-//   e.stopPropagation;
+close.addEventListener('click', () => {
+  menu.style.display = 'none';
 });
 
-closelink.forEach(link => {
-  link.addEventListener("click", (e) => {
-  // console.log("clicked");
-  menu.style.display = "none";
-//   e.stopPropagation;
+closelink.forEach((link) => {
+  link.addEventListener('click', () => {
+    menu.style.display = 'none';
+  });
 });
-})
-
-// closelink
