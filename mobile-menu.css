@@ -11,33 +11,3 @@
 .menu-js > nav {
   padding: 106px 98px 106px 28px;
 }
-
-.menu-js > nav > ul > li {
-  margin-bottom: 40px;
-  border-bottom: 1px solid #6f6c6b;
-  padding-left: 10px;
-}
-
-.menu-js > nav > ul {
-  list-style: none;
-}
-
-.link a {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  color: #fff5e1;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-decoration: none;
-}
-
-.close-modal {
-  background: transparent;
-  border: none;
-  color: white;
-  position: absolute;
-  right: 25px;
-  top: 18px;
-  font-size: 40px;
-}
