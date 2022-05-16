@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+html {scroll-behavior:smooth}
+
 .top-section {
   background: #3c3a39;
   display: flex;

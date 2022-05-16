@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-menu.css">
   </head>
 
   <body>
@@ -28,8 +29,22 @@
             /></a>
           </li>
         </ul>
+        <div class="menu-js">
+          <!-- <span class="x">X</span> -->
+          <button id="close-modal" type="button" class="close-modal x">
+            <span>&times;</span>
+          </button>
+          <nav>
+            <ul id="nav-list">
+              <li class="link"><a href="#Portfolio">Portoflio</a></li>
+              <li class="link"><a href="#about">About</a></li>
+              <li class="link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
         <div class="menu-wrapper">
           <svg
+            id="menu-opener"
             width="18"
             height="12"
             viewBox="0 0 18 12"
@@ -81,6 +96,7 @@
     <div class="part2">
       <section class="works" id="portfolio">
         <div class="recent">
+          <div id="Portfolio"></div>
           <h2>My Recent Works</h2>
           <hr class="recent-works-line" />
           <img class="vector" src="./images/Vector.png" alt="" />
@@ -320,5 +336,6 @@
         alt="Shape Icon"
       />
     </footer>
+    <script src="mob-menu.js"></script>
   </body>
 </html>
