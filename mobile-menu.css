@@ -14,7 +14,7 @@
 
 .menu-js > nav > ul > li {
   margin-bottom: 40px;
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6e;
   padding-left: 10px;
 }
 
@@ -25,7 +25,7 @@
 .link a {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -41,4 +41,3 @@
   top: 18px;
   font-size: 40px;
 }
-
