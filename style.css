@@ -649,13 +649,13 @@ form textarea {
     z-index: 2;
   }
 
-  .abc {
+  .hover-effect {
     position: absolute;
     display: none;
     z-index: 3;
   }
 
-  .mydivouter :hover .abc {
+  .mydivouter :hover .hover-effect {
     display: block;
   }
 

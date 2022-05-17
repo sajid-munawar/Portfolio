@@ -79,17 +79,17 @@ window.addEventListener('DOMContentLoaded', () => {
   popupContent.classList.add('popup-content');
   const popupH1 = document.createElement('h1');
   popupH1.classList.add('popup-h1');
-  popupH1.innerText = projects[1].name;
+//   popupH1.innerText = projects[1].name;
   popupContent.append(popupH1);
   popup.append(popupContent);
   const popupUl = document.createElement('ul');
   popupUl.classList.add('popup-ul');
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
-    const popupUlLi = document.createElement('li');
-    popupUlLi.innerText = projects[1].technologies[i];
-    popupUl.append(popupUlLi);
-  }
+//   for (let i = 0; i < projects[1].technologies.length; i += 1) {
+//     const popupUlLi = document.createElement('li');
+//     popupUlLi.innerText = projects[1].technologies[i];
+//     popupUl.append(popupUlLi);
+//   }
   popupContent.append(popupUl);
 
   const popupDesktop = document.createElement('div');
@@ -139,6 +139,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
   popupDesktop.append(desktopRight);
   popupContent.append(popupDesktop);
+
+  const popupOpenButton = document.querySelectorAll('.popup-open-button');
+
+  popupOpenButton.forEach((button) => {
+    button.addEventListener('click', () => {
+        popupWrapper.style.display = 'block';
+        const projectNumber = parseInt(button.id)
+        popupH1.innerText = projects[projectNumber].name;
+         for (let i = 0; i < projects[projectNumber].technologies.length; i += 1) {
+           const popupUlLi = document.createElement("li");
+           popupUlLi.innerText = projects[projectNumber].technologies[i];
+           popupUl.append(popupUlLi);
+         }
+
+
+    });
+  });
 
   popupClose.addEventListener('click', () => {
     popupWrapper.style.display = 'none';
