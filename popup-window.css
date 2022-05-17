@@ -19,8 +19,6 @@
 .popup {
   height: 92vh;
   position: relative;
-  /* width: 100%; */
-  /* max-width: 375px; */
   background: white;
   margin: 0 3% 10% 3%;
   padding: 1% 5%;
@@ -30,20 +28,15 @@
   position: absolute;
   right: 6%;
   top: 4%;
-  /* border: 2px solid #67798E; */
 }
 
 .popup-h1 {
   max-width: 94%;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 44px;
-  /* or 138% */
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
 }
 
@@ -67,15 +60,11 @@
 }
 
 .popup-p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
 }
 
@@ -88,7 +77,6 @@
 
 .popup-button {
   padding: 5%;
-  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,15 +84,11 @@
   height: 50px;
   color: white;
   border: none;
-
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
   line-height: 24px;
-
-  /* Theme 3 / Primary 1 */
-
   background: #ff6b00;
 }
 
@@ -125,6 +109,7 @@
     margin-top: 1%;
     font-size: 45px;
   }
+
   .popup-ul {
     margin-top: 2%;
     margin-bottom: 30px;
