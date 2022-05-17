@@ -3,8 +3,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Multi Post Stories",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["css", "html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -12,8 +12,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Profesional Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -21,8 +21,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Profesional Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -30,8 +30,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Profesional Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -39,8 +39,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Profesional Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -48,8 +48,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "Profesional Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -57,8 +57,8 @@ window.addEventListener("DOMContentLoaded", () => {
     {
       name: "aaa Art Printing Data",
       descrtiption:
-        "A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featuredImg: "./img/modal-img.png",
+        "A daily selection of privately personalized reads; no accounts or sign - ups required.",
+      featuredImg: "./images/popimg-mobile.png",
       technologies: ["html", "bootstrap", "ruby"],
       demoLink: "https://sajid-munawar.github.io/Portfolio/",
       projectLink: "https://github.com/sajid-munawar/Portfolio",
@@ -68,10 +68,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   popupOpenButton.forEach((button) => {
     button.addEventListener("click", () => {
-        const projectNumber = parseInt(button.id);  
-        
-        const popupWrapper = document.querySelector(".popup-wrapper");
-        popupWrapper.style.display = "block";
+      const projectNumber = parseInt(button.id);
+
+      const popupWrapper = document.querySelector(".popup-wrapper");
+      popupWrapper.style.display = "block";
       const popup = document.createElement("div");
       popup.classList.add("popup");
       popupWrapper.append(popup);
@@ -105,7 +105,7 @@ window.addEventListener("DOMContentLoaded", () => {
       desktopLeft.classList.add("desktop-left");
       const popupImage = document.createElement("img");
       popupImage.classList.add("popup-image");
-      popupImage.src = "./images/popimg-mobile.png";
+      popupImage.src = projects[projectNumber].featuredImg;
       desktopLeft.append(popupImage);
       popupDesktop.append(desktopLeft);
 
@@ -120,6 +120,11 @@ window.addEventListener("DOMContentLoaded", () => {
       const buttonWrapper = document.createElement("div");
       buttonWrapper.classList.add("button-wrapper");
 
+      const seeLiveLink = document.createElement("a");
+      seeLiveLink.href = projects[projectNumber].demoLink;
+      seeLiveLink.target = "_blank";
+      seeLiveLink.classList.add("popup-links");
+
       const seeLiveButton = document.createElement("button");
       seeLiveButton.classList.add("popup-button");
       seeLiveButton.innerText = "See Live";
@@ -129,9 +134,15 @@ window.addEventListener("DOMContentLoaded", () => {
 
       seeLiveButton.append(seeLiveImg);
 
-      buttonWrapper.append(seeLiveButton);
+      seeLiveLink.append(seeLiveButton);
+
+      buttonWrapper.append(seeLiveLink);
       desktopRight.append(buttonWrapper);
 
+      const seeSourceLink = document.createElement("a");
+      seeSourceLink.href = projects[projectNumber].projectLink;
+      seeSourceLink.target = "_blank";
+      seeSourceLink.classList.add("popup-links");
       const seeSourceButton = document.createElement("button");
       seeSourceButton.classList.add("popup-button");
       seeSourceButton.innerText = "See Source";
@@ -140,17 +151,16 @@ window.addEventListener("DOMContentLoaded", () => {
       seeSourceImg.src = "./images/github.png";
 
       seeSourceButton.append(seeSourceImg);
+      seeSourceLink.append(seeSourceButton);
 
-      buttonWrapper.append(seeSourceButton);
+      buttonWrapper.append(seeSourceLink);
 
       popupDesktop.append(desktopRight);
-        popupContent.append(popupDesktop);
-         popupClose.addEventListener("click", () => {
-             popupWrapper.style.display = "none";
-             popupWrapper.innerHTML=''
-         });
+      popupContent.append(popupDesktop);
+      popupClose.addEventListener("click", () => {
+        popupWrapper.style.display = "none";
+        popupWrapper.innerHTML = "";
+      });
     });
   });
-
- 
 });

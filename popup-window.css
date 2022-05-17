@@ -17,27 +17,28 @@
 }
 
 .popup {
-  height: 94vh;
+  height: 92vh;
   position: relative;
   /* width: 100%; */
   /* max-width: 375px; */
   background: white;
   margin: 0 3% 10% 3%;
-  padding: 34px 20px;
+  padding: 1% 5%;
 }
 
 .popup-close {
   position: absolute;
   right: 6%;
-  top: 6%;
+  top: 4%;
   /* border: 2px solid #67798E; */
 }
 
 .popup-h1 {
+  max-width: 94%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.7rem;
   line-height: 44px;
   /* or 138% */
 
@@ -49,8 +50,8 @@
 .popup-ul {
   list-style: none;
   display: flex;
-  margin-top: 45px;
-  margin-bottom: 16px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .popup-ul li {
@@ -62,7 +63,7 @@
 .popup-image {
   margin: 10px auto;
   width: 97%;
-  height: auto;
+  height: 30vh;
 }
 
 .popup-p {
@@ -80,24 +81,26 @@
 
 .button-wrapper {
   display: flex;
-  justify-content: space-between;
+  gap: 15%;
   margin-top: 16px;
+  justify-content: start;
 }
 
 .popup-button {
+  padding: 5%;
   /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48%;
-  height: 60px;
+  width: 130%;
+  height: 50px;
   color: white;
   border: none;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 24px;
 
   /* Theme 3 / Primary 1 */
@@ -109,13 +112,21 @@
   margin-left: 5px;
 }
 
-@media (min-width: 768px) {
+.popup-button:hover {
+  padding: 0;
+}
 
+.popup-links {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
   .popup-h1 {
+    margin-top: 1%;
     font-size: 45px;
   }
   .popup-ul {
-    margin-top: 5px;
+    margin-top: 2%;
     margin-bottom: 30px;
   }
 
@@ -150,12 +161,12 @@
   .button-wrapper {
     display: flex;
     justify-content: flex-start;
+    gap: 10%;
   }
 
   .popup-button {
     display: flex;
     justify-content: center;
-    width: 30%;
     margin-right: 2%;
   }
 }
