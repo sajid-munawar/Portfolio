@@ -31,6 +31,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/sajid-munawar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sajid-munawar-41ba26180/)
 
+👤 **Kartikay Srivastava**
+- GitHub: [@githubhandle](https://github.com/thenarain)
+
+
+
+
 
 ## 🤝 Contributing
 
