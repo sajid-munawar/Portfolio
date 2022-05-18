@@ -1,13 +1,14 @@
 const form = document.getElementById('form');
-const small = email.parentNode.querySelector('small');
+const userEmail = document.getElementById('email');
+const small = userEmail.parentNode.querySelector('small');
 
 form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
+  if (userEmail.value !== userEmail.value.toLowerCase()) {
     e.preventDefault();
     small.innerText = 'Form not sent.Please enter email in lower case';
-  } else if (email.value === email.value.toLowerCase()) small.innerText = '';
+  } else if (userEmail.value === userEmail.value.toLowerCase()) small.innerText = '';
 });
 
-email.addEventListener('click', () => {
+userEmail.addEventListener('click', () => {
   small.innerText = '';
 });
