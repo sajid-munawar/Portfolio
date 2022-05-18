@@ -351,6 +351,14 @@ input {
   border-radius: 4px;
 }
 
+small {
+  font-family: 'Shift', sans-serif;
+  padding-top: 5%;
+  font-size: 1rem;
+  color: red;
+  padding-left: 6%;
+}
+
 textarea {
   width: 90%;
   padding: 60px;
