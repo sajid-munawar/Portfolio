@@ -279,7 +279,7 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </p>
-        <form action="https://formspree.io/f/myyodjdo" method="post">
+        <form id="form" action="https://formspree.io/f/myyodjdo" method="post">
           <input
             type="text"
             placeholder="Full name"
@@ -291,16 +291,18 @@
             type="email"
             placeholder="Email address"
             name="email"
+            id="email"
             required
           />
           <textarea
-            cols="30"
-            rows="10"
-            placeholder="Enter text here"
-            maxlength="500"
-            required
-            name="Message"
+          cols="30"
+          rows="10"
+          placeholder="Enter text here"
+          maxlength="500"
+          required
+          name="Message"
           ></textarea>
+          <small></small>
           <button type="submit">Get in touch</button>
         </form>
       </div>
@@ -342,5 +344,6 @@
     <div class="popup-wrapper"></div>
     <script src="mob-menu.js"></script>
     <script src="popup-window.js"></script>
+    <script src="form-validation.js"></script>
   </body>
 </html>
