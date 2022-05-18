@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-Mobile
+# Portfolio
 
-> In this project I've used Flexbox to style my Porfolio page. The flexbox is very versatile and easy to use.It helps a lot in difficult tasks by making them easy and responsive.
+> This is a Portfolio project. In this project I've used simple html and css firstly then Javascript to manipulations DOM. In this project I've used Javascript objects also. 
 
 
 ## Built With
