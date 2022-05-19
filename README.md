@@ -4,12 +4,13 @@
 
 > This is a Portfolio project. In this project I've used simple html and css firstly then Javascript to manipulations DOM. In this project I've used Javascript objects also. 
 
+<img width='425' src='images/Portfolio-mobile-preview.png' alt='portfolio mobile preview'>
 
 ## Built With
 
 - HTML
-- CSS (Flexbox)
-- Github workflows
+- CSS 
+- Javascript
 
 ## Getting Started
 
